@@ -29,7 +29,7 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: 🔍 Debug: Check .next/standalone contents
+      - name: Check .next/standalone contents
         run: ls -R .next/standalone        
 
       - name: Prepare standalone output for deployment
