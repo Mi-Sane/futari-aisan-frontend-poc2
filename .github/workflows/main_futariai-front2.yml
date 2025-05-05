@@ -35,6 +35,7 @@ jobs:
           cp -r .next/standalone/* deploy/
           cp -r public deploy/
           cp -r .next/static deploy/.next/
+          cp package.json deploy/
 
       - name: Zip artifact for deployment
         run: cd deploy && zip -r ../release.zip ./*
