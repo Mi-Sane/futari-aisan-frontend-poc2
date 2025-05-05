@@ -37,6 +37,7 @@ jobs:
           mkdir deploy
           cp -r .next/standalone/* deploy/
           cp -r public deploy/
+          mkdir -p deploy/.next
           cp -r .next/static deploy/.next/
           cp .next/BUILD_ID deploy/.next/
           cp package.json deploy/
