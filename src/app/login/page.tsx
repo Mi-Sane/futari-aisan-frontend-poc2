@@ -32,7 +32,7 @@ export default function LoginPage() {
       setUserId(userIdInput)
       setCoupleId(coupleIdInput)
 
-      router.push("/dashboard")
+      router.push("/conversation")
     } catch (err) {
       console.error("ログインエラー:", err)
       setError("ログインに失敗しました。")
