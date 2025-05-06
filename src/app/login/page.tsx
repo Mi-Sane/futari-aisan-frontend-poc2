@@ -71,7 +71,7 @@ export default function LoginPage() {
                 type="text"
                 value={userIdInput}
                 onChange={(e) => setUserIdInput(e.target.value)}
-                placeholder="例：1001"
+                placeholder="1001"
                 className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#e88e67]"
                 disabled={isLoading}
               />
@@ -85,7 +85,7 @@ export default function LoginPage() {
                 type="text"
                 value={coupleIdInput}
                 onChange={(e) => setCoupleIdInput(e.target.value)}
-                placeholder="例：C001"
+                placeholder="C001"
                 className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#e88e67]"
                 disabled={isLoading}
               />

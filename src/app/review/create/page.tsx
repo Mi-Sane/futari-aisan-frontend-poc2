@@ -229,7 +229,7 @@ export default function CreateReviewPage() {
               <div className="flex-1">
                 <div className="bg-gradient-to-r from-[#f8d3a8] to-[#e88e67] p-6 rounded-lg text-black mb-8">
                   <p className="mb-4">
-                  <span className="font-medium">対話お疲れ様でした、パートナーのレポートではこんなことがトピックスになっていました。</span>
+                  <span className="font-medium">レポートではこんなことがトピックスになっていました。話してみてどうでしたか？</span>
                   </p>
                   <p className="mb-4">
                     <span className="font-medium">良かったこと：</span>
@@ -264,7 +264,7 @@ export default function CreateReviewPage() {
                 value={planToDo}
                 onChange={(e) => setPlanToDo(e.target.value)}
                 className="w-full p-3 border-b border-gray-300 focus:outline-none focus:border-[#e88e67] bg-transparent"
-                placeholder="例：毎週金曜日は夜対話をする時間を確けることにする"
+                placeholder="例：毎週金曜日の夜に二人で話す時間をつくる"
                 disabled={isSubmitting}
               />
             </div>
@@ -279,7 +279,7 @@ export default function CreateReviewPage() {
                 value={notEnoughTalked}
                 onChange={(e) => setNotEnoughTalked(e.target.value)}
                 className="w-full p-3 border-b border-gray-300 focus:outline-none focus:border-[#e88e67] bg-transparent"
-                placeholder="例：復職後の保育園の送り迎えをどうするか"
+                placeholder="例：保育園の送り迎えの分担見直し"
                 disabled={isSubmitting}
               />
             </div>
